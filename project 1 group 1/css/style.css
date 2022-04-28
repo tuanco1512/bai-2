@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8;
+}
+
+
+#header{
+    height: 60px;
+} 
+
+nav{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    border: 1px #CCCCCC solid;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.left {
+    float: left;
+    padding: 0 10px;
+}
+
+.left:hover{
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.btn:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+nav div a {
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.art-logo{
+    background-image: url(../images/10856247.jpg);
+    background-position: center;
+    height: 800px;
+    background-size: cover;
+}
+
+.display-left{
+    padding: 48px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+
+.display-left-title{
+    font-size: 64px;
+}
+
+.display-left-item{
+    font-size: 18px;
+}
+
+.display-left-btn{
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    opacity: 0.90;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.display-left-btn:hover{
+    background-color: #CCCCCC;
+}
+
+.display-left-bottom{
+    padding: 24px 48px;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.display-left-linkbottom{
+    color: #CCCCCC;
+}
+
+.display-left-linkbottom:hover{
+    color: white;
+}
+
+/* ABout */
+#about{
+    width: 100%;
+    height: 550px;
+    padding: 128px 16px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8;
+    display: inline-block;
+    
+}
+#about > h3{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+#about >p{
+    text-align: center;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+.desktop, .people, .dinamo, .support{
+    width: 25%;
+    height: 271.4px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 40px;
+     
+}
+.desktop >p{
+    margin: 18px 0px;
+}
+.people >p{
+    margin: 18px 0px;
+}
+.dinamo >p{
+    margin: 18px 0px;
+}
+.support >p{
+    margin: 18px 0px;
+}
+
+/* Team */
+.img-team-2{
+    width: 100%;
+    justify-content: center;
+}
+
+.the-team{
+    text-align: center!important;
+    font-size: 35px;
+    font-weight: 400;
+}
+.the-team-p{
+    margin: 30px 0;
+    text-align: center!important;
+    font-size: 25px!important;
+}
+#art-the-team img:hover{
+    transform: scale(1.1);
+}
+.img-team,.img-team-2{
+    display: flex;
+}
+.a-tien ,.tuan,.hien,.duong,.khanh,.quyen,.tien {
+    line-height: 1.8;
+    padding: 0 5px;
+    width: 25%;
+    margin: 10px 0;
+    font-family: "Raleway", sans-serif;
+}
+.position{
+    opacity: 0.60;
+}
+a button{
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    height: 40px;
+    font-size: larger;
+    font-family: fantasy;
+    cursor: pointer;
+}
+a button:hover{
+    color: blue;
+}
+.the-team-p2{
+    font-size: 20px;
+    padding: 20px;
+    background-color: honeydew;
+    height: 320px;
+}
+#art-the-team h2:hover{
+    color: #ffff;
+    background-color: black;
+
+}
+
+/* Work */
+#work {
+    margin-top: 300px;
+}
+.w-header {
+    text-align: center;
+    font-size: 30px;
+}
+.w-content {
+    text-align: center;
+    font-size: 20px;
+}
+#w-images{
+    line-height: 0;
+}
+#w-images img {
+    border: 1px solid black;
+    height: 350px;
+    width: 330px;
+}
+.w-ima {
+    padding: 10px;
+    display: inline-block;
+}
+.w-ima:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.w-ima.zoomed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    text-align: center;
+}
+
+/* Contact */
+#tong{
+    color: black;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    padding-top: 200px;
+}
+#trong{
+    padding: 0 25px;
+}
+#contact{
+    text-align: center;
+    font-size: 25px;
+}
+form{
+    text-align: center;
+}
+form input{
+    width: 98%;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+}
+.send{
+    width: 150px;
+    height: 50px;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.send:hover{
+    background-color: #ccc;
+    color: black;
+}
+figure{
+    padding-top: 40px;
+    margin: 0;
+    height: 1000px;
+}
+figure img{
+    width: 100%;
+    height: 900px;
+}
+
+/*footer*/
+.footer{
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px ;
+}
+
+.footer-back{
+    padding: 15px 25px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-back:hover{
+    background-color: #ccc;
+}
+
+.footer-link{
+    margin-top: 20px;
+}
+
+.footer-social-link{
+    font-size: 30px;
+    color: #ccc;
+}
+
+.footer-social-link:hover{
+    color: white;
+}
+
+.footer-group1-link{
+    color: white;
+}
+
+.footer-group1-link:hover{
+    color: yellow;
+}
